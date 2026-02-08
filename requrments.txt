@@ -5,3 +5,4 @@ Django   6.0.1
 pip      24.0
 sqlparse 0.5.5
 pillow
+django-extensions
