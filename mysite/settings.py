@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'debug_toolbar',
     'taggit',
     'django_summernote',
+    'captcha',
 
     
     'website',
@@ -58,6 +59,12 @@ SITE_ID = 2
 # robots
 ROBOTS_USE_HOST = False
 ROBOTS_USE_SITEMAP = False
+
+
+# captcha admin setting
+MULTI_CAPTCHA_ADMIN = {
+    'engine': 'simple-captcha',
+}
 
 
 

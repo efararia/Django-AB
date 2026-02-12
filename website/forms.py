@@ -2,9 +2,12 @@ from pyexpat import model
 from django import forms
 from django.forms import fields
 from website.models import Contact, NewsLetter
+from captcha.fields import CaptchaField
+
 
 
 class ContactForm(forms.ModelForm):
+    captcha = CaptchaField()
     
 
     class Meta:
