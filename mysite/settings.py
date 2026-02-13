@@ -51,7 +51,10 @@ INSTALLED_APPS = [
     
     'website',
     'blog',
+    'accounts',
 ]
+
+
 # sites framework
 SITE_ID = 2
 
